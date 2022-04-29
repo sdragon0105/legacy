@@ -1,0 +1,56 @@
+.insightsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--background-color);
+}
+
+.insightTweet {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.insightTweet a {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  padding: 25px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.tweetProfile {
+  display: flex;
+  align-items: center;
+}
+
+.twitterUsername p {
+  margin: 0;
+  padding: 0;
+}
+
+.tweetProfilePic {
+  margin-right: 25px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.tweetContent {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.clickToSee {
+  width: fit-content;
+}

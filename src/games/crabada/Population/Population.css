@@ -1,0 +1,69 @@
+.populationDashboard {
+  width: 80%;
+  height: 100%;
+  padding-bottom: 150px;
+  margin: 0 auto;
+  background-color: black;
+}
+
+.populationRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.populationRowItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #424242;
+  border-radius: 15px;
+  margin: 10px 0px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.populationPie {
+  box-shadow: rgba(0, 0, 0, 0.24) 4px 3px 8px;
+  background-color: var(--background-color);
+  position: relative;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: space-between;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.populationGraph {
+  box-shadow: rgba(0, 0, 0, 0.24) 4px 3px 8px;
+  background-color: var(--background-color);
+  position: relative;
+  height: 500px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  justify-content: space-between;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  -ms-border-radius: 0 10px 10px 0;
+  -o-border-radius: 0 10px 10px 0;
+}
+
+.hatchingSchedule {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}

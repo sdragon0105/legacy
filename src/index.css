@@ -1,0 +1,79 @@
+:root {
+  --blue: #1370f6;
+  --pink: #d9298a;
+  --purple: #7f21c4;
+
+  --inactive-color: #c4c4c4;
+  --text-font: "Heebo";
+  --headings-font: "Cubano";
+  --blur: rgba(0, 0, 0, 0.02);
+  --svgFilterBlue: invert(36%) sepia(49%) saturate(5622%) hue-rotate(206deg)
+    brightness(98%) contrast(97%);
+
+  --graphMenuBackground: black;
+  --graphMenuBackgroundActive: #2b2b2b;
+  --background-color: black;
+  --text-color: white;
+  --blur: rgba(0, 0, 0, 0.5);
+  --box-shadow: rgba(255, 255, 255, 0.253) 0px 6px 24px 0px,
+    rgba(255, 255, 255, 0.212) 0px 0px 0px 1px;
+  --svgFilter: invert(98%) sepia(98%) saturate(0%) hue-rotate(310deg)
+    brightness(101%) contrast(103%);
+}
+/* :root.dark-mode {
+  --graphMenuBackground: #787878;
+  --graphMenuBackground: black;
+  --graphMenuBackgroundActive: #2b2b2b;
+  --background-color: black;
+  --text-color: white;
+  --blur: rgba(0, 0, 0, 0.5);
+  --box-shadow: rgba(255, 255, 255, 0.253) 0px 6px 24px 0px,
+    rgba(255, 255, 255, 0.212) 0px 0px 0px 1px;
+  --svgFilter: invert(98%) sepia(98%) saturate(0%) hue-rotate(310deg)
+    brightness(101%) contrast(103%);
+} */
+
+@font-face {
+  font-family: "Heebo";
+  src: local("MyFont"), url(./fonts/Heebo.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+@font-face {
+  font-family: "Cubano";
+  src: local("Cubano"), url(./fonts/Cubano.ttf) format("truetype");
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--text-font);
+  color: var(--text-color);
+  background-color: var(--background-color);
+  letter-spacing: 0.02em;
+}
+
+p {
+  font-family: var(--text-font);
+  font-size: 16px;
+}
+
+h1 {
+  font-family: var(--headings-font);
+  font-size: 30px;
+}
+h2 {
+  font-family: var(--headings-font);
+  font-size: 22px;
+}
+h3 {
+  font-family: var(--headings-font);
+  font-size: 16px;
+}
+
+li {
+  font-family: var(--text-font);
+}

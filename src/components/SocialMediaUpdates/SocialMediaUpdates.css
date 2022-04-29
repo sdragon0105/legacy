@@ -1,0 +1,51 @@
+.updateContainer {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding-bottom: 40px;
+  /* background-color: #0d0d0d; */
+}
+
+.updateContainer h2 {
+  font-family: var(--headings-font);
+  font-weight: 400;
+}
+
+.updateSocialMediaRow {
+  display: flex;
+  margin-top: 30px;
+}
+
+.updateSocialMediaRow p {
+  font-family: var(--text-font);
+  color: var(--text-color);
+}
+
+.updateSocialMediaIcon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px;
+  opacity: 0.9;
+}
+.updateSocialMediaRow a,
+.updateSocialMediaRow a:hover,
+.updateSocialMediaRow a:focus,
+.updateSocialMediaRow a:active {
+  text-decoration: none;
+}
+
+.updateSocialMediaIcon:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.updateSocialMediaIconImage {
+  width: 72px;
+  height: 72px;
+}

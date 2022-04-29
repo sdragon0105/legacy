@@ -1,0 +1,72 @@
+.crabadaEconomy {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.economyData {
+  width: 85%;
+  height: 500px;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.economyData:nth-child(2) {
+  margin-top: 30px;
+}
+
+.economyDataItem {
+  background-color: var(--graphMenuBackground);
+  border-radius: 10px 0 0 10px;
+  height: 100%;
+  width: 25%;
+  max-width: 250px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  -webkit-border-radius: 10px 0 0 10px;
+  -moz-border-radius: 10px 0 0 10px;
+  -ms-border-radius: 10px 0 0 10px;
+  -o-border-radius: 10px 0 0 10px;
+}
+
+.economyDataGraph {
+  box-shadow: rgba(0, 0, 0, 0.24) 4px 3px 8px;
+  background-color: var(--background-color);
+  position: relative;
+  height: 100%;
+  max-width: 70%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0 10px 10px 0;
+  -webkit-border-radius: 0 10px 10px 0;
+  -moz-border-radius: 0 10px 10px 0;
+  -ms-border-radius: 0 10px 10px 0;
+  -o-border-radius: 0 10px 10px 0;
+  border: 1px solid #242424;
+}
+
+.economyDataGraphTitle {
+  font-family: var(--text-font);
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.economyDataSelectorTitle {
+  display: flex;
+  align-items: center;
+}
+
+.economyDataSelectorTitle h3 {
+  font-family: "Heebo";
+}

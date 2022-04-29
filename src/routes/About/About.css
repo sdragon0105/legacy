@@ -1,0 +1,362 @@
+.aboutSection {
+  position: relative;
+  height: 100%;
+  z-index: 3;
+}
+
+.aboutSection:first-child {
+  border-bottom: 1px solid black;
+}
+
+.aboutSection.fixedHeight {
+  height: 600px;
+}
+
+.aboutLogo {
+  width: 480px;
+  margin-top: 100px;
+}
+
+/* ---------------
+        Blur
+--------------- */
+.aboutContent {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.aboutBlur {
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.backgroundP2E {
+  position: absolute;
+  top: -321px;
+  left: -65px;
+
+  height: 810px;
+  width: 922px;
+  z-index: -4;
+}
+.backgroundBlur {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 13, 13, 0.5);
+  backdrop-filter: blur(200px);
+  z-index: -3;
+}
+
+/* ---------------
+    Social Media Row
+--------------- */
+.socialMediaRow {
+  display: flex;
+  justify-content: space-around;
+}
+
+.socialMediaItem {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  opacity: 0.9;
+}
+
+.socialMediaItem:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.socialMediaItem a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.socialMediaIcon {
+  width: 32px;
+  height: 32px;
+}
+
+.socialMediaText {
+  margin-left: 5px;
+  font-size: 16px;
+}
+
+/* ---------------
+    Input Address
+--------------- */
+.addressInput {
+  width: 750px;
+  height: 75px;
+}
+
+.addressInputText {
+  width: 90%;
+  height: 100%;
+  margin-top: 70px;
+
+  font-family: var(--headings-font);
+  font-style: italic;
+  font-size: 24px;
+  color: var(--text-color);
+  background-color: var(--background-color);
+  padding-left: 24px;
+
+  border: 1px solid #4c1dd7;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+
+  outline: none;
+}
+
+/* ---------------
+    About Section
+--------------- */
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 85%;
+  padding: 50px;
+  flex-wrap: wrap-reverse;
+  gap: 50px;
+  background-color: #0d0d0d;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutTitle {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  width: 100%;
+}
+
+.aboutSmallSeperator {
+  height: 35px;
+  width: 0px;
+  background: var(--blue);
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(180deg, var(--blue) 0%, var(--pink) 100%);
+  border-image-slice: 1;
+  margin-right: 20px;
+}
+
+.aboutText {
+  font-size: 22px;
+  width: 500px;
+}
+
+.aboutImage {
+  width: 240px;
+  height: 240px;
+}
+
+/* ---------------
+    Roadmap
+--------------- */
+.roadmap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.roadmapWrapper {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.roadmapCard {
+  position: relative;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+
+  flex: 1 0 40%;
+  margin: 10px 20px;
+  padding: 0 25px 25px 25px;
+
+  border: 5px solid var(--blue);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.roadmapCard.second {
+  border: 5px solid var(--pink);
+}
+
+.roadmapCard.third {
+  border: 0px solid;
+}
+
+.roadmapCard.third:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  padding: 5px;
+  border-radius: 20px;
+  background: linear-gradient(180deg, var(--blue) 0%, var(--pink) 100%);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.roadmapBackground {
+  position: absolute;
+  font-family: var(--headings-font);
+  font-size: 250px;
+  color: var(--blue);
+  opacity: 40%;
+  z-index: -1;
+}
+
+.roadmapBackground.second {
+  color: var(--pink);
+}
+
+.roadmapBackground.third {
+  background: linear-gradient(180deg, var(--blue) 0%, var(--pink) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.roadmapTitle {
+  font-size: 48px;
+  margin-top: 140px;
+}
+
+.roadmapContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 60px;
+}
+
+.roadmapRow {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.roadmapRowText {
+  font-size: 18px;
+}
+
+.roadmapRowTextThird {
+  text-align: center;
+  width: 80%;
+  font-size: 18px;
+}
+
+.roadmapRowImage {
+  height: 75px;
+  padding: 0 30px;
+}
+
+.roadmapProducts {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.roadmapProducts.second .roadmapProductItem {
+  background-color: var(--pink);
+}
+
+.roadmapProductItem {
+  flex: 0 0 32%;
+  height: 50px;
+  width: 180px;
+  background-color: var(--blue);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  font-family: var(--headings-font);
+  font-size: 16px;
+  font-style: italic;
+  color: white;
+
+  margin: 2px;
+
+  text-align: center;
+  line-height: 50px;
+}
+
+.giveFeedback {
+  width: 250px;
+  height: 40px;
+  background-color: #5865f2;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+
+  font-family: var(--headings-font);
+  font-size: 18px;
+  color: white;
+  opacity: 0.9;
+  text-align: center;
+  line-height: 40px;
+}
+
+.giveFeedback:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.launchButton {
+  margin-top: 30px;
+  width: 250px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  background-color: var(--blue);
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  font-family: "Cubano";
+  color: black;
+  font-size: 20px;
+  opacity: 0.9;
+}
+
+.launchButton:hover {
+  cursor: pointer;
+  opacity: 1;
+}

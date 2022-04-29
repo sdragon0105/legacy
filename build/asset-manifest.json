@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50b9531d.css",
+    "main.js": "/static/js/main.5ac09b88.js",
+    "static/media/crab.svg": "/static/media/crab.57ab14b81adb78d33614201207922e00.svg",
+    "static/media/cra.svg": "/static/media/cra.fd293c127ac32155cfc93d93b22f8330.svg",
+    "static/media/crabada.png": "/static/media/crabada.229fa3d154f714da0a9e.png",
+    "static/media/Heebo.ttf": "/static/media/Heebo.021fda4bbc4da0c21299.ttf",
+    "static/media/MikoTwitterProfile.jpeg": "/static/media/MikoTwitterProfile.7a0741e0109d9f36731f.jpeg",
+    "static/media/Cubano.ttf": "/static/media/Cubano.1ea52f1c8a3cb1269081.ttf",
+    "static/media/P2ELogoWhite.svg": "/static/media/P2ELogoWhite.591a379a798824198f05ce92284f3fc8.svg",
+    "static/media/cram.svg": "/static/media/cram.f22bbddbedaf24d917ecb884a06568b9.svg",
+    "static/media/P2ELogo.svg": "/static/media/P2ELogo.61827cf8077f9f725d2a8fbb1738b054.svg",
+    "static/media/tus.svg": "/static/media/tus.896c51f547e9958fb1ce72161fbd2da6.svg",
+    "static/media/P2EWhite.svg": "/static/media/P2EWhite.7068993c8f7c3df06de8c1b7e58e630f.svg",
+    "static/media/P2EBlack.svg": "/static/media/P2EBlack.72b303d04e4f8923015c0dce76263266.svg",
+    "static/media/economy.svg": "/static/media/economy.ea11445cfdbf0deebd68983b8b9c3370.svg",
+    "static/media/discord.svg": "/static/media/discord.8f820632bc04e249933d77e2d9f7e813.svg",
+    "static/media/P2EIcon.svg": "/static/media/P2EIcon.f2f6a252b5dac96ff2088a2516d54d8e.svg",
+    "static/media/P2EWhiteIcon.svg": "/static/media/P2EWhiteIcon.5969a3a3b4e848ebfa48abd04bbfa087.svg",
+    "static/media/twitter.svg": "/static/media/twitter.544f2a8c087137d0967b9a5109e09931.svg",
+    "static/media/AVAX.svg": "/static/media/AVAX.3813c9fc47b87208c38425c2da786c7f.svg",
+    "static/media/P2EBlackIcon.svg": "/static/media/P2EBlackIcon.258f8105bde0faab670dfc2e94d56093.svg",
+    "static/media/population.svg": "/static/media/population.0cb28bcca9139073c6b29edd3dfb0164.svg",
+    "index.html": "/index.html",
+    "static/media/insights.svg": "/static/media/insights.d155b3474d35e3819254752ceca77382.svg",
+    "static/media/location.svg": "/static/media/location.a1e5ed19d638bbe99c52c7c7d7153e5b.svg",
+    "main.50b9531d.css.map": "/static/css/main.50b9531d.css.map",
+    "main.5ac09b88.js.map": "/static/js/main.5ac09b88.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50b9531d.css",
+    "static/js/main.5ac09b88.js"
+  ]
+}

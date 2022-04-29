@@ -1,0 +1,67 @@
+.navbar {
+  height: 85px;
+  width: 100%;
+  display: flex;
+  background-color: var(--background-color);
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+  -webkit-border-radius: 0px 0px 20px 20px;
+  -moz-border-radius: 0px 0px 20px 20px;
+  -ms-border-radius: 0px 0px 20px 20px;
+  -o-border-radius: 0px 0px 20px 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbarLogo {
+  width: 75px;
+  height: 75px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+
+.navbarRoutes {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.navbarRouteItem {
+  padding: 0 30px;
+  font-family: var(--headings-font);
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.navbarRouteItem:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.navbarTheme {
+  margin-right: 70px;
+}
+
+.themeIcons {
+  font-size: 32px;
+  padding: 0 20px;
+  color: var(--inactive-color);
+  opacity: 0.9;
+}
+
+.themeIcons.active {
+  color: var(--text-color);
+}
+
+.themeIcons:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.disableLink,
+.disableLink:focus,
+.disableLink:hover,
+.disableLink:active {
+  text-decoration: none;
+  color: var(--text-color);
+}
